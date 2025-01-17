@@ -1,0 +1,62 @@
+ .grid{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap:3px;
+            background-color:palevioletred;
+            padding: 5px;
+        }
+        .grid div {
+      padding: 5px;
+      background-color: #f4f4f4;
+      border: 1px solid #ddc2e7;
+      text-align: center;
+    }
+    
+
+    
+     .edit{
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border-radius: 15px;
+      border: 2px solid black;
+      padding: 5px;
+      width: 100px;
+     }
+    .delete {
+      cursor: pointer;
+      background-color: #dc3545;
+      color: white;
+      border-radius: 15px;
+      border: 2px solid black;
+      padding: 5px;
+      width: 100px;
+      margin: 1px;;
+      
+    }
+
+    .edit:hover {
+      background-color: whitesmoke;
+      color: black;
+    }
+
+    .delete:hover {
+      background-color: whitesmoke;
+      color: black;
+    }
+ .newreg {
+      display: block;
+      margin: 20px 0;
+      text-align: center;
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .newreg:hover {
+      background-color: rgb(230, 114, 114);
+    }
+     
